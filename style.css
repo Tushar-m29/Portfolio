@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  background-color: rgb(220, 239, 240);
+}
+.sidebar{
+    background-color:black;
+    left: 0px;
+    height: 100vh;
+    font-family: 'PT Serif', serif;
+  
+}
+.sidebar{
+    padding: 20px;
+}
+.main{
+    /*background-color:cyan;*/
+    width: 80vw;
+}
+.container{
+    display:flex
+}
+
+.sidebar nav li{
+    list-style: none;  
+    border-bottom: 1px solid white;
+    padding: 20px 0px;
+}
+
+.sidebar nav p{
+    font-weight: 800;
+    font-size: 30px;
+    color: white;
+    padding-bottom: 10px;
+    cursor: default;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color:white;
+    font-size: 25px;
+    font-weight: 600;
+    display: block;
+
+}
+
+.sidebar  a:hover,
+.sidebar a.active{
+    color: cyan;
+}
+
+
+.infocontainer{
+    /*background-color: rgb(217, 100, 131);*/
+    height: 70vh;
+    width: 70vw;
+    margin: 147px auto;
+   display: flex;
+   justify-content: space-around;
+}
+
+.devPic img{
+    margin-top: 10px;
+    height: 45vh;
+    width: 25vw;
+    border-radius:30%;
+    box-shadow: 20px 20px 20px rgb(125, 135, 135);
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 110px
+}
+   
+.devInfo h3{
+  font-size: 32px;
+   font-weight: 700;
+}
+.devInfo h3 span{
+    color:rgb(0, 149, 169);
+}
+.devInfo h1{
+    font-size: 56px;
+    font-weight:700;
+    margin-left: -5px;
+}
+.devInfo p{
+    margin-top: 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.buttons{
+    margin-top:50px;
+   
+}
+.social-media a{
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   width:40px;
+   height: 40px;
+   background:white;
+   border: 2px solid white;
+   border-radius: 50%;
+   font-size: 20px;
+   color: cyan;
+   text-decoration: none;
+   margin: 0 15px 0 0;
+}
+
+.social-media a:hover{
+    background-color: cyan;
+    color: white;
+    border:cyan;
+    box-shadow: 0 0 20px cyan;
+}
+
+.btn{
+    background-color: black;
+    padding:15px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+     margin: 0 3px;
+    cursor: pointer; 
+}
+
+.btn1{
+    background-color: black;
+    padding:15px;
+    margin-right: 20px;
+    margin-top: -800px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer; 
+}
+
+.btn-sm{
+    background-color: black;
+    padding:10px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+     margin-left: -10px;
+    cursor: pointer; 
+}
+
+.btn:hover{
+    background-color:cyan;
+    box-shadow: 0 0 20px cyan;
+    color:black;
+}
+
+.btn1:hover{
+    background-color:cyan;
+    box-shadow: 0 0 20px cyan;
+    color:black;
+}
+
+.btn-sm:hover{
+    background-color:cyan;
+    box-shadow: 0 0 20px cyan;
+    color:black;
+}
+
+.contactform{
+    margin-top: -55px;
+    padding-left: 50px;
+    padding-top:100px;
+    font-family: 'PT Serif', serif;
+}
+
+.contactform h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    margin-left: -400px;
+}
+
+.contactform form div{
+    padding: 7px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-text{
+    font-size: 12px;
+    color: rgb(11, 120, 118);
+    margin: 0 5px;
+}
+
+.form-control{
+    width: 15vw;
+    border-radius: 7px;
+}
+
+.form-check-input{
+    margin-left: -965px;
+}
+
+.Info{
+    height: 30vh;
+    width: 70vw;
+    margin-left: 50px;
+    margin-top: 60px;
+  
+}
+
+.myinfo{
+    font-size: larger
+}
+
+.languages{
+    height: 40vh;
+    width: 70vw;
+    margin-left: 2px;
+    margin-top: 50px;;
+}
+
+.bar{
+   background-color: rgb(37, 229, 229);
+   color: black;
+   margin-bottom: -800px;
+}
+
+.statement{
+    font-size:25px;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.buttons1{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.heading{
+    font-weight: 500;
+}
+
+

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tushar Mathpati-Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+    <div class="container">
+      <div class="sidebar">
+        <nav>
+          <ul>
+            <p>Portfolio</p>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="intro.html" class="active">My Intro</a></li>
+              <li><a href="Certification.html">Certification</a></li>
+              <li><a href="cv.html">CV</a></li>
+              <li><a href="contact.html">Contact</a></li>
+          </ul>
+       </nav>
+      </div>
+    <div class="main">
+      <div class="Info">
+        <div class="myinfo">
+            <h1 class="heading">Self Introduction</h1>
+            <p>Myelf Tushar Umakant Mathpati.I am currently pursuing my Engineering in Computer Science Branch 
+                at Walchand Institue of Technology,Solapur.It was my chilhood dream to become a engineer that is what i am trying to fullfill.
+                In my first year of enginnering i successfully learnt various coding languages.
+            </p>
+        </div>  
+        <div class="languages">
+          <h1 class="heading">My Skills</h1>
+            <div class="w3-light-grey">
+                <div id="myBar" class="bar" style="width:20%">0%</div>
+               </div>
+                </div>
+                
+                <script>
+                function move() {
+                  var elem = document.getElementById("myBar");   
+                  var width = 20;
+                  var id = setInterval(frame, 10);
+                  function frame() {
+                    if (width >= 90) {
+                      clearInterval(id);
+                    } else {
+                      width++; 
+                      elem.style.width = width + '%'; 
+                      elem.innerHTML = width * 1  + '%';
+                    }
+                  }
+                }
+                </script>
+             
+                <script>
+                  function move1() {
+                    var elem = document.getElementById("myBar");   
+                    var width = 20;
+                    var id = setInterval(frame, 10);
+                    function frame() {
+                      if (width >= 80) {
+                        clearInterval(id);
+                      } else {
+                        width++; 
+                        elem.style.width = width + '%'; 
+                        elem.innerHTML = width * 1  + '%';
+                      }
+                    }
+                  }
+                  
+                  </script>
+
+                  <script>
+                   function move2() {
+                   var elem = document.getElementById("myBar");   
+                   var width = 20;
+                   var id = setInterval(frame, 10);
+                  function frame() {
+                  if (width >= 75) {
+                   clearInterval(id);
+                  } else {
+                   width++; 
+                   elem.style.width = width + '%'; 
+                  elem.innerHTML = width * 1  + '%';
+                  }
+                }
+               }
+                </script>
+                   <button class="btn1" onclick="move()">C</button> 
+                   <button class="btn1" onclick="move1()">C++</button> 
+                   <button class="btn1" onclick="move2()">Web Designing</button> 
+        </div>  
+       </div>
+     </div>
+     <script src="script.js"></script>
+</body>
+</html>
